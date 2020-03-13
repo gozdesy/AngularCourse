@@ -11,6 +11,8 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { HeaderComponent } from './header/header.component';
 import { EventTestComponent } from './event-test/event-test.component';
+import { UnlessDirective } from './directives/unless.directive';
+import { DropdownDirective } from './directives/dropdown.directive';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { EventTestComponent } from './event-test/event-test.component';
     ShoppingListComponent,
     ShoppingEditComponent,
     HeaderComponent,
-    EventTestComponent
+    EventTestComponent,
+    UnlessDirective,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,
